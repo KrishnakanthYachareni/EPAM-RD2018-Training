@@ -1,0 +1,39 @@
+motorcycle,red,cruiser,TS07FS2361,149
+motorcycle,blue,commuter,TS07FS2371,110
+motorcycle,black,supersport,TS07FS2381,500
+car,TS07FS2311,1248,23,i10
+car,TS07FS2322,1200,26,i20
+bus,TS07FS2323,3000,600,50
+bus,TS07FS2324,3500,500,40
+airplane,200,TS07fs2312,50000,640000
+train,TS07FS2321,100,200,Express
+helicopter,10,20,50000,5
+aeroplane,200,TS07FS2381,50000,600000
+bicyle,8,herosprint,20,mountain
+bicycle,10,herooctane,30,road
+ship,TS07FS2222,22000,1500,300
+yacht,TS07FS2351,hardtop,500,1000
+yacht,TS07FS2354,openyacht,4450,900
+boat,iron,100,cuddy cabin,200
+boat,steel,12,deck,190
+barge,BarracksBarge,1500,20000,1000
+barge,DryBulkCargoBarges,1500,22000,1200
+AirHotBallon,10,TS07FS2391,50000,1
+SpaceShip,TS07FS2358,74842,145000,200
+snowmobile,240,TS07FS2541,20,yamahaslidewinner-txle
+airship,TS07FS2345,220,7063000,Hindenburg
+scooter,hero,50,100,TS07FS3245
+scooter,honda,45,125,TS07FS1234
+metro,1000,150,200,TS07FS2356
+quadbike,100,NEOATV,TS07FR4567,110
+van,200,250,20,TS07FR4569
+hangglider,100,0.6,50,icaro2000
+submarine,400,100000,1000
+segway,100,12,10,30
+jetski,20,2010,5,TS07FS2568
+rocketpack,2,10,12,100
+tram,30,500,TS07FS4589,BOGIE OPEN
+tram,30,500,TS07FS4589,OPEN CROSSBECNCH
+tank,50,2000,500,3
+jetfighter,500,2015,TS07FS8523,1000
+catamaran,20000,TS07HJ5647,500,1000

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+targetNamespace="http://www.example.org/EmpolyeeSchema"
+xmlns:tns="http://www.example.org/EmpolyeeSchema" elementFormDefault="qualified">
+
+    <element name="Employee" type="tns:Employee"></element>
+    
+    <complexType name="Employee">
+    	<sequence>
+    		<element name="id" type="int"></element>
+    		<element name="firstname" type="string"></element>
+    		<element name="lastname" type="string"></element>
+    		<element name="dob" type="date"></element>
+    		<element name="salary" type="double"></element>
+    	</sequence>
+    </complexType>
+</schema>

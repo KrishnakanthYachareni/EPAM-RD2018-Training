@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+	<login loginid="1" username="EPAM" password="Hyderabad" />
+	<login loginid="2" username="Krishnakanth" password="5161Kri" />
+	<login loginid="3" username="Sravanthi" password="password" />
+</dataset>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.epam.com/BookStore"
+	xmlns:tns="http://www.epam.com/BookStore"
+	elementFormDefault="qualified">
+
+
+    <element name="bookstore" type="tns:book"></element>
+    
+    <complexType name="book">
+    	<sequence>
+    		<element name="title" type="string"></element>
+    		<element name="author" type="string" maxOccurs="unbounded"
+    			minOccurs="1">
+    		</element>
+    		<element name="category" type="string" maxOccurs="unbounded"
+    			minOccurs="0">
+    		</element>
+    		<element name="language" type="string" maxOccurs="1" minOccurs="0"></element>
+    		<element name="year" type="int" maxOccurs="1" minOccurs="0"></element>
+    		<element name="edition" type="int" maxOccurs="1" minOccurs="0"></element>
+    		<element name="price" type="double"></element>
+    	</sequence>
+    	<attribute name="ISBN" type="string"></attribute>
+    </complexType>
+</schema>

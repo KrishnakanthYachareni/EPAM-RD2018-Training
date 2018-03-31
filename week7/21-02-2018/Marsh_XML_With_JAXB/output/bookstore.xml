@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bookstore>
+    <book isbn="123456789">
+        <title>Java In Depth</title>
+        <author>Krishnakanth</author>
+        <category>Java</category>
+        <language>English</language>
+        <year>2018</year>
+        <edition>1</edition>
+        <price>200.0</price>
+    </book>
+</bookstore>

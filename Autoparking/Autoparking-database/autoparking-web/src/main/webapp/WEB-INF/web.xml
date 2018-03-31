@@ -1,0 +1,38 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+	<servlet>
+		<servlet-name>ParkingLotController</servlet-name>
+		<display-name>ParkingLotController</display-name>
+		<description></description>
+		<servlet-class>org.autoparking.controller.LoginController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>SignInController</servlet-name>
+		<display-name>SignInController</display-name>
+		<description></description>
+		<servlet-class>org.autoparking.controller.SignInController</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>ParkingManager</servlet-name>
+		<display-name>ParkingManager</display-name>
+		<description></description>
+		<servlet-class>org.autoparking.controller.ParkingManager</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ParkingLotController</servlet-name>
+		<url-pattern>/parkLot</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SignInController</servlet-name>
+		<url-pattern>/signin</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>ParkingManager</servlet-name>
+		<url-pattern>/ParkingManager</url-pattern>
+	</servlet-mapping>
+
+</web-app>

@@ -1,0 +1,22 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+	<display-name>Archetype Created Web Application</display-name>
+
+	<context-param>
+		<param-name>log4j-config-location</param-name>
+		<param-value>WEB-INF/log4j.properties</param-value>
+	</context-param>
+	<servlet>
+		<servlet-name>Parking</servlet-name>
+		<display-name>Parking</display-name>
+		<description></description>
+		<servlet-class>com.epam.autoparking.Parking</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Parking</servlet-name>
+		<url-pattern>/Parking</url-pattern>
+	</servlet-mapping>
+</web-app>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function counterIncreament() {
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.count) {
+            localStorage.count = Number(localStorage.count)+1;
+        } else {
+            localStorage.count = 0;
+        }
+        document.getElementById("result").innerHTML = "Counter = " + localStorage.count;
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+
+function showCounter() {
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.count) {
+             document.getElementById("result").innerHTML = "Counter = " + localStorage.count;
+        } else {
+            localStorage.count = 0;
+        }
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+
+function removeStorage() {
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.count) {
+           localStorage.removeItem("count");
+        } else {
+            document.getElementById("result").innerHTML = "Sorry No local Storage found";
+        }
+        document.getElementById("result").innerHTML = "You have removed count from Web local storage";
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+
+</script>
+</head>
+
+<body onload="showCounter()">
+<center>
+<h2 id="result"></h2>
+<button onclick="counterIncreament()" type="button">counter</button>
+<button onclick="removeStorage()" type="button">remove</button>
+</center>
+</body>
+</html>

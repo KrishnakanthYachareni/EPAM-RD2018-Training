@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bookstore xmlns="http://www.example.org/books">
+    <book isbn="12345678">
+        <title>Java for Beginners</title>
+        <author>Krishnakanth</author>
+        <category>JAVA</category>
+        <price>200.0</price>
+        <year>2018</year>
+    </book>
+    <book isbn="12345678">
+        <title>Java for Beginners</title>
+        <author>Krishnakanth</author>
+        <category>JAVA</category>
+        <price>200.0</price>
+        <year>2018</year>
+    </book>
+</bookstore>

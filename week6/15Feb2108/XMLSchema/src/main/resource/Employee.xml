@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Employee xmlns:tns="http://www.example.org/EmpolyeeSchema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.example.org/EmpolyeeSchema EmpolyeeSchema.xsd ">
+	<id>100</id>
+	<firstname>Krishnakanth</firstname>
+	<lastname>Yachareni</lastname>
+	<dob>24-02-1996</dob>
+	<salary>50000</salary>
+</Employee>

@@ -1,0 +1,14 @@
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<servlet-name>GenericServletDemo</servlet-name>
+  	<display-name>GenericServletDemo</display-name>
+  	<description>This is servlet demo</description>
+  	<servlet-class>GenericServletDemo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>GenericServletDemo</servlet-name>
+  	<url-pattern>/GenericServletDemo</url-pattern>
+  </servlet-mapping>
+
+</web-app>
